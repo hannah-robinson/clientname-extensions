@@ -28,7 +28,7 @@ export default /**
   }
   // Find the payment method to hide
   const hidePaymentMethod = input.paymentMethods.find((method) =>
-    method.name.includes('Cash on Delivery')
+    method.name.includes('Money Order')
   )
   if (!hidePaymentMethod) {
     return NO_CHANGES
