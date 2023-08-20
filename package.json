@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@shopify/app": "3.48.1",
-    "@shopify/cli": "3.48.1"
+    "@shopify/cli": "3.48.1",
+    "react": "^17.0.2"
   },
   "author": "h",
   "private": true,
